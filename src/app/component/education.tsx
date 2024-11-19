@@ -2,12 +2,10 @@
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
+ 
   CardHeader,
   CardTitle,
 } from "@/app/component/ui/card";
-import { School } from "lucide-react";
 
 
 
