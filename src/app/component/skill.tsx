@@ -55,11 +55,8 @@ const Skill = () => {
           <h3 className="text-blue-500 text-sm text-right  font-semibold tracking-tight">90%</h3>
          
         </div>
-  
 
-
-
-
+        
 
            {/* TYPESCRIPT / JAVASCRIPT */}
       <div className="p-4 w-full md:w-1/2 lg:w-1/3">
