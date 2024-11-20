@@ -3,9 +3,7 @@ import Image from "next/image";
 import resume from "@/public/assets/project/resume.png";
 import clock from "@/public/assets/project/clock.png";
 import portfolio from "@/public/assets/project/protfolio.png";
-import calculator from "@/public/assets/project/simpleCalculator.png";
-import game from "@/public/assets/project/tictactoe.png";
-import age from "@/public/assets/project/ageCalculator.png";
+// Removed unused imports for calculator, game, and age
 
 const MobileProject = () => {
   return (
@@ -14,8 +12,8 @@ const MobileProject = () => {
         Project
       </h2>
 
+      {/* Resume */}
       <div className="lg:w-1/3 sm:w-1/2 p-4 mt-8">
-        {/* Resume */}
         <div className="flex relative">
           <Image
             src={resume}
@@ -101,8 +99,7 @@ const MobileProject = () => {
         </div>
       </div>
 
-      {/* Other projects... */}
-      {/* Similar fixes applied to other sections. */}
+      {/* Other projects can be added similarly */}
     </div>
   );
 };
