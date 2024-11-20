@@ -4,7 +4,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/app/component/ui/card";
-// 
 import Link from "next/link";
 import Image from "next/image";
 import resume from "@/public/assets/project/resume.png";
@@ -28,7 +27,7 @@ const Project = () => {
         </CardHeader>
         <CardContent className="space-y-2">
           <div className="flex flex-wrap -m-4">
-            {[ // Dynamically render projects
+            {[
               {
                 src: resume,
                 alt: "Resume",
