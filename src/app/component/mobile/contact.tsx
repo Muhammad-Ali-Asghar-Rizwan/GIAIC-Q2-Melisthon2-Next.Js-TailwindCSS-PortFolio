@@ -28,7 +28,7 @@ const MobileContact = () => {
            Kharadar Karachi,
           </p>
         </div>
-        <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+        <div className="lg:w-1/2 px-6 mt-4 lg:mt-0 ">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
             EMAIL
           </h2>

@@ -16,11 +16,11 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 
 const MobileCard = () => {
   return (
-    <div  className='h-[90vh]  flex flex-col items-center justify-center mt-[10rem]'>
+    <div  className='h-[90vh] mt-48  flex flex-col items-center justify-center'>
      <div className="bg-slate-200 card glass w-80 p-5 flex flex-col justify-center items-center text-center">
   
     {/* image */}
-    <Image src={profile} alt="profile-picture" width={500} height={500} className="rounded-md mt-20"/>
+    <Image src={profile} alt="profile-picture" width={1000} height={1000} className="rounded-md mt-20"/>
   
   <div className="card-body">
     <h1 className=" text-center text-3xl font-bold tracking-tight uppercase">Ali  Asghar</h1>
@@ -59,7 +59,7 @@ const MobileCard = () => {
     </Button> 
     </Link>
 
-      
+
   </div>
 </div>
     </div>

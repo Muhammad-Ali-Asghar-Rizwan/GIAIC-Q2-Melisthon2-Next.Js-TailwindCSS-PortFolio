@@ -16,14 +16,16 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 
 import profile from "@/public/assets/profile.jpg" 
 
+
 export function Sidebar() {
   return (
-     <div className="flex flex-col items-center justify-center align-middle p-3 h-full bg-gradient-to-tl from-zinc-600" >
+     <div className="flex flex-col items-center justify-center align-middle p-3 h-full bg-gradient-to-tl from-stone-600" >
+
     {/* Image */}
-    <Image src={profile} alt="profile-picture" width={1000} height={1000} className="rounded-md "/>
+    <Image src={profile} alt="profile-picture" width={1000} height={1000} className="rounded-md"/>
     {/* Name here */}
     <div className="mt-3">
-    <h1 className="text-2xl font-bold tracking-tight uppercase">Ali  Asghar</h1>
+    <h1 className="text-2xl font-bold tracking-tight uppercase text-gray-600">Ali  Asghar</h1>
     <h2 className="text-lg text-center font-semibold tracking-tight text-white">
     <Typewriter
   options={{
@@ -49,17 +51,17 @@ export function Sidebar() {
       <FaGithubSquare className="text-4xl "/>
       </Link>
       </div>
+      
 
      
     </div>
     {/* Download CV Button */}
-    <Link href="/assets/cv/MY CV.pdf" className="mt-4" target="_blank">
-    <Button>
+    <Link href="/images/cv/MY CV.pdf" className="mt-4" target="_blank">
+    <Button className="hover:bg-white hover:text-black transition duration-500 ">
     <FaCloudDownloadAlt className="mr-3 h-4 w-4"/> Download CV
     </Button> 
     </Link>
 
-  
    </div>
   )
 }

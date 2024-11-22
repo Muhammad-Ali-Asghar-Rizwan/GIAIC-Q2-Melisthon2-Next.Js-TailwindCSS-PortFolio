@@ -4,7 +4,7 @@
 import { useEffect } from "react";
 
 // FOR ANIMATE ON SCROLL LIBRARY
-import  { init } from "aos";
+import AOS, { init } from "aos";
 import "aos/dist/aos.css"
 
 
@@ -16,6 +16,7 @@ import MobileExperience from "./mobile/experience";
 import MobileSkill from "./mobile/skill";
 import MobileProject from "./mobile/project";
 import MobileContact from "./mobile/contact";
+// import Particle from "./particle";
 
 
 
@@ -47,16 +48,18 @@ useEffect(()  => {
         <MobileProject/>
         {/* Contact */}
         <MobileContact/>
+        {/*  */}
       
 
       </div>
 
       {/* desktop view  */}
-    <div className="hidden md:flex md:overflow-hidden md:h-screen bg-gray-400">
+    <div className="hidden md:flex md:overflow-hidden md:h-screen bg-stone-900">
 
        {/* Sidebar */}
        <div className="w-1/5">
         <Sidebar/>
+        {/* <Particle/> */}
        </div>
 
         {/* Detail  */}

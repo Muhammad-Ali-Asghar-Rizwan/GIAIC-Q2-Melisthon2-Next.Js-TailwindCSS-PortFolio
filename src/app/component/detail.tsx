@@ -13,9 +13,9 @@ import Contact from "./contact"
 
 export function Detail() {
   return (
-    <Tabs defaultValue="education" className="w-full p-4 ">
+    <Tabs defaultValue="education" className="w-full p-4 bg-stone-700">
       {/* tabs trigher button */}
-      <TabsList className="grid w-full grid-cols-5">
+      <TabsList className="grid w-full grid-cols-5 bg-stone-800">
         <TabsTrigger value="education">Education</TabsTrigger>
         <TabsTrigger value="Experience">Experience</TabsTrigger>
         <TabsTrigger value="Skill">Skill</TabsTrigger>
