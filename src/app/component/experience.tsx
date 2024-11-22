@@ -12,7 +12,7 @@ import Particle from "./particle";
 const Experience = () => {
 
   // My Education here
-  let experience = [
+  const experience = [
     {
       skill : "Web Designer",
       
