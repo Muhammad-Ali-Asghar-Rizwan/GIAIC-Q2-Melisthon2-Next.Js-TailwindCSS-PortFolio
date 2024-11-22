@@ -14,7 +14,7 @@ import Particle from "./particle";
 const Education = () => {
 
   // My Education here
-  let education = [
+  const education = [
     {
       schoolName : "Memon Education Board ",
       date: "12 Jun 2024",
